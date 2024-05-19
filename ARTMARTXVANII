@@ -2,7 +2,7 @@
 <HTML>
   <head>
     <meta>
-    <meta charset="UTF-8">
+    <meta charsel="UTF-8">
     <meta name="discription" content="HTML sample page">
     <meta name="keywords" content="HTML">
     <meta name="author" content="VANI">
@@ -16,21 +16,22 @@
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
 <body>
-    <div class="header">
-    <div class="container">
-        <div class="navbar">
-    <div class="logo">
-        <img src="IMAGES/logoart.pnj.jpg" width="250px" >
+  <div class="header">
+  <div class="container">
+      <div class="navbar">
+  <div class="logo">
+      <img src="IMAGES/logoart.pnj.jpg" width="250px" >
         </div>
         <nav>
             <ul>
-            <li><a href="artmartxvanii.html">Home</a></li>
+            <li><a href="home">Home</a></li>
                  <li><a href="products.html">Products</a></li>
+                 <li><a href="about">About</a></li>
+                 <li><a href="contact">Contact</a></li>
                  <li><a href="loginform.html">Account</a></li>
-                <li><a href="aboutus.html">About Us</a></li>
             </ul>
         </nav>
-            <a href="shoppingcart.html"><img src="IMAGES/shoppingcart.pnj.jpg" width="100px" height="100px"></a>
+            <img src="IMAGES/shoppingcart.pnj.jpg" width="100px" height="100px">
     </div>
         <div class="row">
         <div class="col-2">
@@ -39,7 +40,7 @@
                 <br>Favourite!</h1>
             <p>Home to all your pintersty ideas is here.<br>
                 DM us all your imagination of custom handmade gifts and get it at your doorstep at very reasonable prices.</p>
-            <a href="products.html" class="btn">Explore now &#8594;</a>
+            <a href="" class="btn">Explore now &#8594;</a>
             </div>
             <div class="col-2">
                 <img src="IMAGES/frontcover.pnj.jpg">
@@ -122,18 +123,36 @@
                     <p>Exclusively available on ARTMART </p>
                     <h1>SHADOW FRAME</h1>
                     <small>The SHADOW FRAME is a product which has LED lights which works with a switch. The all over frame is madeup of premium pinewood and has arcylic sheet which makes it more special.<br> The pictures inside are placed in a way that they give 3D effect.</small>
+                    <a href="" class="btn">Buy Now &#8594;</a>
                 </div>
             </div>
         </div>
     </div>
     </div>
-    <footer>
-    <div class="footer">
+    <div class="share">
     <h3 class="social">SOCIAL MEDIA</h3>
     <a href="https://www.facebook.com/profile.php?id=100079965261590" class="fa fa-facebook"></a>
     <a href="https://www.instagram.com/artmartxvanii/" class="fa fa-instagram"></a>
-    <a href="https://in.pinterest.com/" class="fa fa-pinterest"></a>
     </div>
-    </footer>
+    <div class="containerx">
+  <div class="row">
+    <div class="col-xs-4">
+      <h3>Column 1</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    </div>
+    <div class="col-xs-4">
+      <h3>Column 2</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    </div>
+    <div class="col-xs-4">
+      <h3>Column 3</h3>        
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    </div>
+      
+  </div>
+</div>
     </body>
 </HTML>
