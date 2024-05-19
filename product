@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<HTML>
+  <head>
+    <meta>
+    <meta charset="UTF-8">
+    <meta name="discription" content="HTML sample page">
+    <meta name="keywords" content="HTML">
+    <meta name="author" content="VANI">
+    <meta name="viewport" content="width=device-width,initial-scale-10">
+    <meta http-equiv="refresh" content="30">
+      <title>products</title>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+      <style>
+          body{
+              font-family: 'Poppins', sans-serif;
+          }
+          .header{
+    max-width: 1080px;
+    padding-left: 15px;
+    padding-right: 25px;
+    align-content: center;
+              justify-content: center;
+}
+      .col-1{
+         flex-basis: 25%;
+          padding-left: 30px;
+          padding-right: 30px;
+          align-content: center;
+          justify-content: center;
+         transition: transform 0.5s;}
+.col-1 img{
+         width: 80%;
+      }
+.row{
+    display:flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    padding-left: 30px;
+    padding-right: 30px;
+          }
+          
+      .title{
+          text-align:center;
+          margin: 10 auto 80px;
+          position: relative;
+          line-height: 60px;
+          color:brown;
+          font-size: 30px;
+          justify-content: center;
+      } 
+          
+h4{ 
+         color:#555;
+         font-weight: normal;
+      }
+.col-1 p{
+          font-size: 20px;
+    
+      }
+.col-1:hover{
+         transform: translateY(-5px);
+      }
+      
+      
+      </style>
+    </head>
+    <body>
+    <div class="header">
+      <h1 class="title">PRODUCTS</h1>
+      <div class="row">
+        <div class="col-1">
+            <img src="IMAGES/classyhamper.pnj.jpg">
+            <h4>CLASSY HAMPER</h4>
+            <p>$1299.00</p>
+        </div>
+        <div class="col-1">
+            <img src="IMAGES/ledshadowbffframe.pnj.jpg">
+            <h4>LED-3D-SHADOW FRAME </h4>
+            <p>$999.00</p>
+        </div>
+        <div class="col-1">
+            <img src="IMAGES/roses.pnj.jpg">
+            <h4>CROSHET ROSES</h4>
+            <p>$399.00</p>
+        </div>
+          <div class="col-1">
+              <img src="IMAGES/birthdayhamper.pnj.jpg">
+              <h4>BIRTHDAY HAMPER</h4>
+              <p>$2499.00</p>
+          </div>
+          <div class="col-1">
+          <img src="IMAGES/couplebracelet.pnj.jpg">
+          <h4>COUPLE BRACELET</h4>
+          <p>$150.00</p>
+          </div>
+              <div class="col-1">
+              <img src="IMAGES/butterflyboqouet.pnj.jpg">
+              <h4>BUTTERFLY BOQOUET</h4>
+                  <p>$699.00</p>
+              </div>
+              </div>
+     </div>
+         <div class="container">            
+  <ul class="pager">
+    <li class="next"><a href="#">Next</a></li>
+  </ul>
+</div>
+
+    </body>
+</HTML>
